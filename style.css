@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+label {
+    width: 300px;
+}
+
+#text_area {
+    height: 75px;
+}
+
+.my_txt {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#my_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    width: 100px;
+}
+
+/* ----------------------------- */
