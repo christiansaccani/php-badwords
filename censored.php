@@ -23,14 +23,16 @@ $censored_text = str_replace($bad_word, "***", $original_text);
 <body>
     <h1>Bad Words</h1>
 
-    <p class="mb-3">
-        Testo Originale: <?php echo $original_text ?><br>
-        Lunghezza: <?php echo strlen($original_text) ?> caratteri.
-    </p>
+    <div id="censored_div">
+        <p class="mb-5">
+            <strong>Testo Originale:</strong><br><?php echo $original_text ?><br>
+            <strong>Lunghezza:</strong> <?php echo strlen($original_text) ?> caratteri.
+        </p>
 
-    <p>
-        Testo Censurato: <?php echo $censored_text ?><br>
-        Lunghezza: <?php echo strlen($censored_text) ?> caratteri.
-    </p>
+        <p>
+            <strong>Testo Censurato:</strong><br><?php echo $censored_text ?><br>
+            <strong>Lunghezza:</strong> <?php echo strlen($censored_text) ?> caratteri.
+        </p>
+    </div>
 </body>
 </html>

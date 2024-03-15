@@ -15,12 +15,12 @@
 
     <form action="censored.php" method="GET" id="my_form">
         <div class="mb-3 my_txt">
-            <label for="exampleFormControlTextarea1" class="form-label">Inserisci qui il tuo testo: </label>
-            <input name="original_text" type="text" id="text_area">
+            <label class="form-label">Inserisci qui il tuo testo: </label>
+            <textarea name="original_text" class="form-control" id="text_area" rows="3"></textarea>
         </div>
         <div class="mb-3 my_txt">
-            <label for="">Parola da censurare: </label>
-            <input name="bad_word" type="text" placeholder="***">
+            <label class="form-label">Parte da censurare: </label>
+            <textarea name="bad_word" class="form-control" placeholder="***" rows="1"></textarea>
         </div>
         <input id="submit" type="submit">
     </form>
